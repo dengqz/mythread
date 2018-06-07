@@ -10,7 +10,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>ch03</artifactId>
-
+    <properties>
+        <project.build.sourceEncoding>
+            UTF-8
+        </project.build.sourceEncoding>
+    </properties>
     <build>
         <plugins>
             <plugin>
@@ -19,7 +23,9 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
+                    <encoding>utf-8</encoding>
                 </configuration>
+                <version>3.3</version>
             </plugin>
         </plugins>
     </build>

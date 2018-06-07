@@ -1,7 +1,5 @@
 package suspend_resume_deal_lock;
 
-import com.sun.corba.se.impl.orbutil.concurrent.Sync;
-
 /**
  * Created by cheese on 2018/6/4.
  */
