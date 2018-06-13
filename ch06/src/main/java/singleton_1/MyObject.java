@@ -1,0 +1,21 @@
+package singleton_1;
+
+/**
+ * @author : Cheese
+ * @date : 2018/6/13
+ * @description : TODO
+ */
+public class MyObject {
+    private static MyObject myObject;
+    private MyObject(){
+    }
+    public static MyObject getInstance(){
+        //延迟加载
+        if(myObject != null){
+
+        }else {
+            myObject = new MyObject();
+        }
+        return myObject;
+    }
+}
